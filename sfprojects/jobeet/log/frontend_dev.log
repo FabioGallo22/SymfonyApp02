@@ -1,0 +1,352 @@
+May 25 03:24:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+May 25 03:24:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 03:24:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 03:24:57 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 03:24:57 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 03:24:57 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 03:24:57 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/util/sfToolkit.class.php:351))
+May 25 03:24:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/util/sfToolkit.class.php:351))
+May 25 03:24:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 03:24:57 symfony [info] {sfWebDebugLogger} Configuration 45.69 ms (9)
+May 25 03:24:57 symfony [info] {sfWebDebugLogger} Factories 81.26 ms (1)
+May 25 03:24:57 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 03:24:57 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 6.47 ms (1)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 03:24:57 symfony [info] {sfWebResponse} Send content (32027 o)
+May 25 16:01:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:01:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:01:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:01:20 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:01:20 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:01:20 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:01:20 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:01:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:01:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:01:20 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (9)
+May 25 16:01:20 symfony [info] {sfWebDebugLogger} Factories 62.55 ms (1)
+May 25 16:01:20 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 16:01:20 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 7.65 ms (1)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:01:20 symfony [info] {sfWebResponse} Send content (32273 o)
+May 25 16:03:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:03:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:03:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:03:28 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:03:28 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:03:28 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:03:28 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:03:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:03:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:03:28 symfony [info] {sfWebDebugLogger} Configuration 0.32 ms (9)
+May 25 16:03:28 symfony [info] {sfWebDebugLogger} Factories 8.38 ms (1)
+May 25 16:03:28 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:03:28 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1.08 ms (1)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:03:28 symfony [info] {sfWebResponse} Send content (32303 o)
+May 25 16:09:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:09:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:09:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:09:13 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:09:13 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:09:13 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:09:13 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:09:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:09:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:09:13 symfony [info] {sfWebDebugLogger} Configuration 0.32 ms (9)
+May 25 16:09:13 symfony [info] {sfWebDebugLogger} Factories 6.23 ms (1)
+May 25 16:09:13 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:09:13 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 0.86 ms (1)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:09:13 symfony [info] {sfWebResponse} Send content (32303 o)
+May 25 16:16:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:16:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 259 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:16:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:16:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:16:20 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:16:20 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:16:20 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:16:20 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:16:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:16:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:16:20 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+May 25 16:16:20 symfony [info] {sfWebDebugLogger} Factories 2.69 ms (1)
+May 25 16:16:20 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:16:20 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.11 ms (1)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:20 symfony [info] {sfWebResponse} Send content (32304 o)
+May 25 16:16:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 259 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:16:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:16:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:16:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:16:54 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:16:54 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:16:54 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:16:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:16:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:16:54 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+May 25 16:16:54 symfony [info] {sfWebDebugLogger} Factories 1.58 ms (1)
+May 25 16:16:54 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+May 25 16:16:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 0.75 ms (1)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:16:54 symfony [info] {sfWebResponse} Send content (32303 o)
+May 25 16:17:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 259 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:17:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:17:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:17:21 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:17:21 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:17:21 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:21 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:17:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:17:21 symfony [info] {sfWebDebugLogger} Configuration 0.74 ms (9)
+May 25 16:17:21 symfony [info] {sfWebDebugLogger} Factories 49.29 ms (1)
+May 25 16:17:21 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 16:17:21 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.52 ms (1)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:21 symfony [info] {sfWebResponse} Send content (32307 o)
+May 25 16:17:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 259 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:17:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:17:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:17:46 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:17:46 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:17:46 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:46 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:17:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:17:46 symfony [info] {sfWebDebugLogger} Configuration 0.38 ms (9)
+May 25 16:17:46 symfony [info] {sfWebDebugLogger} Factories 5.09 ms (1)
+May 25 16:17:46 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:17:46 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 0.96 ms (1)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:46 symfony [info] {sfWebResponse} Send content (32303 o)
+May 25 16:17:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 259 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+May 25 16:17:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:17:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:17:48 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:17:48 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:17:48 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:48 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:17:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:17:48 symfony [info] {sfWebDebugLogger} Configuration 0.31 ms (9)
+May 25 16:17:48 symfony [info] {sfWebDebugLogger} Factories 1.43 ms (1)
+May 25 16:17:48 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:17:48 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 3.01 ms (1)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:48 symfony [info] {sfWebResponse} Send content (32304 o)
+May 25 16:17:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:17:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:17:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:17:57 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:17:57 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:17:57 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:57 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:17:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:17:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:17:57 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (9)
+May 25 16:17:57 symfony [info] {sfWebDebugLogger} Factories 68.23 ms (1)
+May 25 16:17:57 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 16:17:57 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 22.76 ms (1)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:17:57 symfony [info] {sfWebResponse} Send content (32307 o)
+May 25 16:18:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:18:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:18:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:18:37 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:18:37 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:18:37 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:18:37 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:18:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:18:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:18:37 symfony [info] {sfWebDebugLogger} Configuration 1.61 ms (9)
+May 25 16:18:37 symfony [info] {sfWebDebugLogger} Factories 1.75 ms (1)
+May 25 16:18:37 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:18:37 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.26 ms (1)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:18:37 symfony [info] {sfWebResponse} Send content (32303 o)
+May 25 16:27:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:27:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:27:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:27:30 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:27:30 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:27:30 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:27:30 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:27:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:27:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:27:30 symfony [info] {sfWebDebugLogger} Configuration 0.76 ms (9)
+May 25 16:27:30 symfony [info] {sfWebDebugLogger} Factories 54.22 ms (1)
+May 25 16:27:30 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 16:27:30 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 12.17 ms (1)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:30 symfony [info] {sfWebResponse} Send content (32306 o)
+May 25 16:27:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:27:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:27:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:27:35 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:27:35 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:27:35 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:27:35 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:27:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:27:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:27:35 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+May 25 16:27:35 symfony [info] {sfWebDebugLogger} Factories 1.43 ms (1)
+May 25 16:27:35 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+May 25 16:27:35 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 2.89 ms (1)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 16:27:35 symfony [info] {sfWebResponse} Send content (32304 o)
+May 25 16:34:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:34:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:34:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:34:23 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:34:23 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:34:23 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:34:23 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:34:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:34:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:34:23 symfony [info] {sfWebDebugLogger} Configuration 0.72 ms (9)
+May 25 16:34:23 symfony [info] {sfWebDebugLogger} Factories 58.06 ms (1)
+May 25 16:34:23 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+May 25 16:34:23 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.85 ms (1)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:34:23 symfony [info] {sfWebResponse} Send content (32307 o)
+May 25 16:41:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 16:41:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 16:41:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 16:41:07 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 16:41:07 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 16:41:07 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:41:07 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 16:41:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 16:41:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 16:41:07 symfony [info] {sfWebDebugLogger} Configuration 1.78 ms (9)
+May 25 16:41:07 symfony [info] {sfWebDebugLogger} Factories 163.09 ms (1)
+May 25 16:41:07 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 16:41:07 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 63.17 ms (1)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+May 25 16:41:07 symfony [info] {sfWebResponse} Send content (32308 o)
+May 25 17:43:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 25 17:43:56 symfony [info] {myUser} Automatic user logout due to timeout
+May 25 17:43:56 symfony [info] {myUser} User is not authenticated
+May 25 17:43:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 25 17:43:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 25 17:43:56 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 25 17:43:56 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 25 17:43:56 symfony [info] {sfPHPView} Decorate content with "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 17:43:56 symfony [info] {sfPHPView} Render "/home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 25 17:43:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 25 17:43:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 25 17:43:56 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (9)
+May 25 17:43:56 symfony [info] {sfWebDebugLogger} Factories 113.56 ms (1)
+May 25 17:43:56 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+May 25 17:43:56 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 43.45 ms (1)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [warning] {sfWebDebugLogger}  Warning at /home/fabio/lampstack-7.3.16-2/apache2/htdocs/sfprojects/jobeet/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+May 25 17:43:56 symfony [info] {sfWebResponse} Send content (33061 o)
